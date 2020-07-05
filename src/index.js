@@ -32,6 +32,12 @@ export default function index(){
             img: 'https://sujeitoprogramador.com/wp-content/uploads/2020/05/blackwidow.jpg'
         },
         {
+            title:"Free Guy",
+            text: "Um caixa de banco preso a uma entediante rotina tem sua vida virada de cabeça para baixo quando ele descobre que é personagem em um brutalmente realista vídeo game de mundo aberto.",
+            release: 2020,
+            img: 'https://sujeitoprogramador.com/wp-content/uploads/2020/05/freeguy.jpg'
+        },
+        {
             title:"Top Gun: MAVERICK",
             text: "Em Top Gun: Maverick, depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha, o piloto à moda antiga Maverick (Tom Cruise) enfrenta drones e prova que o fator humano ainda é fundamental no mundo contemporâneo das guerras tecnológicas.",
             release: 2020,
@@ -42,12 +48,6 @@ export default function index(){
             text: "Bloodshot é um ex-soldado com poderes especiais: o de regeneração e a capacidade de se metamorfosear. ",
             release: 2020,
             img: 'https://sujeitoprogramador.com/wp-content/uploads/2020/05/blood.jpg'
-        },
-        {
-            title:"Free Guy",
-            text: "Um caixa de banco preso a uma entediante rotina tem sua vida virada de cabeça para baixo quando ele descobre que é personagem em um brutalmente realista vídeo game de mundo aberto.",
-            release: 2020,
-            img: 'https://sujeitoprogramador.com/wp-content/uploads/2020/05/freeguy.jpg'
         },
     ]);
 
@@ -63,7 +63,6 @@ export default function index(){
                         source={{uri: item.img}}
                         style={styles.carouselImg}
                     />
-                    <Text style={styles.carouselText}>{item.title}</Text>
                     <Icon name="play-circle-outline" color="#FFF" size={30} style={styles.carouselIcon}/>
                 </TouchableOpacity>
             </View>
@@ -87,7 +86,7 @@ export default function index(){
                                 <Icon name="search" color="#000" size={25}/>
                             </TouchableOpacity>
                         </View>
-                        <Text style={{color: '#FFF', fontSize: 25, fontWeight: 'bold', marginBottom: 15}}>
+                        <Text style={{color: '#FFF', fontSize: 25, fontWeight: 'bold', marginBottom: 15, marginLeft: 10}}>
                             Acabou de chegar
                         </Text>
                         <View style={styles.slideView}>

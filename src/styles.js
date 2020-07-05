@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#000'
     },
     viewSearch:{
-        marginTop: 20,
+        marginTop: 15,
         backgroundColor: "#FFF",
         elevation: 10,
         borderRadius: 5,
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     },
     slideView:{
         width: '100%',
-        height: 330,
+        height: 320,
         justifyContent: 'center',
         alignContent: 'center',
         alignItems: 'center'
@@ -52,14 +52,6 @@ const styles = StyleSheet.create({
         height: 300,
         borderRadius: 12,
         backgroundColor: 'rgba(0, 0, 0, 0.5)'
-    },
-    carouselText:{
-        padding: 15,
-        color: '#FFF',
-        position: 'absolute',
-        bottom: 15,
-        left: 2,
-        fontWeight: 'bold'
     },
     carouselIcon:{
         position: 'absolute',
